@@ -4,12 +4,26 @@ body { background: light !important; } /* Adding !important forces the browser t
 #about {
   margin-top: 3rem;
 }
+#banner {
+  border-bottom: solid;
+  padding: 30px;
+}
+.caption {
+  background-color: #252a34;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-color: #252a34;
+  border-style: solid;
+  color: white;
 
-#featured-projects {
-    margin-top: 3rem;
-    margin-bottom: 5rem;
-    padding-bottom: 30px;
+}
+.list {
 
-.row {
-  margin-top: 5rem;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 40px;
+}
+
+h4 {
+  background-color: pink;
 }
