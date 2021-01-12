@@ -5,8 +5,18 @@ body { background: light !important; } /* Adding !important forces the browser t
   margin-top: 3rem;
 }
 #banner {
+  background-color:#252a34;
+  color:white;
   border-bottom: solid;
   padding: 30px;
+}
+#projects {
+  padding-top: 30px;
+}
+.title {
+  padding-left:30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
 }
 .caption {
   background-color: #252a34;
@@ -15,15 +25,19 @@ body { background: light !important; } /* Adding !important forces the browser t
   border-color: #252a34;
   border-style: solid;
   color: white;
-
 }
 .list {
-
   margin-top: 15px;
   margin-bottom: 15px;
   line-height: 40px;
 }
+#footer {
+  background-color: #252a34;
+  padding: 30px;
 
-h4 {
-  background-color: pink;
+}
+.ending{
+  background-color: #252a34;
+  color: white;
+
 }

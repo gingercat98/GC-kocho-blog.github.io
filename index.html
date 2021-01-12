@@ -1,161 +1,148 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>My Personal Website</title>
-    <link rel="stylesheet" href="index.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!--add favicon-->
-    <link rel="icon" href="favicon.ico">
+<head>
+  <meta charset="utf-8">
+  <title>Kocho Gallery</title>
+  <link rel="stylesheet" href="index.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!--icon for button-->
-    <script src="https://kit.fontawesome.com/1e689e4022.js" crossorigin="anonymous"></script>
+  <!--add favicon-->
+  <link rel="icon" href="favicon.ico">
 
-    <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <!--icon for button-->
+  <script src="https://kit.fontawesome.com/1e689e4022.js" crossorigin="anonymous"></script>
 
-  </head>
+  <!-- Bootstrap CSS-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-  <body>
+</head>
+
+<body>
 
 <!--Navigation bar-->
-<section id="navigation"
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="#">GingerCat's Kocho Blog</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-  <span class="navbar-toggler-icon"></span>
-  </button>
+  <section id="navigation" <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="#">GingerCat's Kocho Blog</a>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-  <ul class="navbar-nav mr-auto">
-    <li class="nav-item active">
-      <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">My Project</a>
-    </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Tutorials
-      </a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item" href="#">Download app</a>
-        <a class="dropdown-item" href="#">How to Make Visual Novel</a>
-        <a class="dropdown-item" href="#">How to Download others's novels</a>
+    <!--Hambuger navbar-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item" href="#">Contact Me</a>
-      </div>
-    </li>
-  </ul>
-  </div>
-  </nav>
-</section>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Library <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">My Project</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Tutorials
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Download app</a>
+            <a class="dropdown-item" href="#">How to Make Visual Novel</a>
+            <a class="dropdown-item" href="#">How to Download others's novels</a>
+
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Contact Me</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+    </nav>
+  </section>
 
 <!--Welcome banner-->
-<section id="banner">
-  <div class="container" >
-    <div class="row">
-      <div class="col-md-10">
-        <h2> Welcome to my blog </h2>
-        <p>This is where I add any Kocho related content</p>
-        <p> Feel free to send me any messages :D ! </p>
-        <a class="btn btn-danger" href="https://www.youtube.com/channel/UCqpk8grOo45oBchWZD73SFg" role="button"><i class="fab fa-youtube"></i>  Youtube</a>
-        <a class="btn btn-warning" href="https://www.reddit.com/user/gingercat009" role="button"><i class="fab fa-reddit"></i>  Reddits</a>
-
-      </div>
-
-  </div>
-</section>
-
-<!--About-->
-<section id="about">
+  <section id="banner">
     <div class="container">
-      <h2 class="text-justify"> </h2>
-    </div>
-</section>
+      <div class="row">
+        <div class="col-md-10">
+          <h2> Welcome to my blog </h2>
+          <p>This is where I add any Kocho related content</p>
+          <p> Feel free to send me any messages :D ! </p>
+          <a class="btn btn-danger" href="https://www.youtube.com/channel/UCqpk8grOo45oBchWZD73SFg" target="_blank" role="button"><i class="fab fa-youtube"></i> Youtube</a>
+          <a class="btn btn-warning" href="https://www.reddit.com/user/gingercat009" target="_blank" role="button"><i class="fab fa-reddit"></i> Reddits</a>
+          <a class="btn btn-primary" href="https://github.com/gingercat98" target="_blank" role="button"><i class="fab fa-github"></i></i> Github</a>
+        </div>
+      </div>
+  </section>
+
 
 <!--Projects-->
-<section id="projects"
-
-
-
-<div class="container">
-  <h2>Visual Novel Gallery</h2>
-  <p>Here are projects were made and upload on Reddits. Enjoy!</p>
-  <p>The projects are sort most recent.<p>
-    <hr>
-
-
-  <div class="row">
-
-    <div class="col-md-4">
-      <div class="thumbnail">
-
-        <img src="DDLC.jpg" alt="Lights" style="width:100%">
-
-        <div class="caption">
-
-          <h3>DDLC Other Story Demo</h3>
-          <div class="list"
-          <ul>
-            <li> Genre: Fantasy </li>
-            <li> Author: Unknown127 </li>
-            <li> Language:Portuguese Brazil </li>
-            <li> Status: Demo</li>
-            <li> About: </li>
-          </ul>
-          </div>
-          <a class="btn btn-primary" href="https://mega.nz/file/WgknjS6B#-WKpj7Hx1mGV7siSAFuU_T0D5HDA3Zc-fGGFXXBCJ9M" role="button">Download</a>
-        </div>
-
-      </div>
+  <section id="projects">
+  <div class="container">
+    <div class="title">
+      <h2>Visual Novel Gallery 📕</h2>
+      <p>Here are projects were made and upload on Reddits. Enjoy!</p>
+      <p>The projects are sort most recent.
+      <p>
     </div>
 
+    <div class="row">
 
-    <div class="col-md-4">
-      <div class="thumbnail">
+<!-- Add new content VN below here-->
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="DDLC.jpg" alt="Lights" style="width:100%">
 
-        <img src="DOKIDOKI.jpg" alt="Lights" style="width:100%">
-
-        <div class="caption">
-
-          <h3>Doki-doki-puddle-of-blood kocho</h3>
-          <div class="list"
-          <ul>
-            <li> Genre: School life, Mystery </li>
-            <li> Author: yurimywaifu</li>
-            <li> Language: English</li>
-            <li> Status: Ongoing</li>
-            <li> About: </li>
-          </ul>
+          <div class="caption">
+            <h3>DDLC Other Story Demo</h3>
+            <div class="list" <ul>
+              <li> Genre: Fantasy </li>
+              <li> Author: Unknown127 </li>
+              <li> Language:Portuguese Brazil </li>
+              <li> Status: Demo</li>
+              <li> About: </li>
+              </ul>
+            </div>
+            <a class="btn btn-primary btn-block" href="https://mega.nz/file/WgknjS6B#-WKpj7Hx1mGV7siSAFuU_T0D5HDA3Zc-fGGFXXBCJ9M" target="_blank" role="button">Download</a>
           </div>
-          <a class="btn btn-primary" href="https://mega.nz/file/pJx3mKDT#coQEKYi5xW7KE1nZ9UmrkgDZragTKdpR3u2tI4C8zUI" role="button">Download</a>
-        </div>
 
+        </div>
       </div>
-    </div>
 
 
       <div class="col-md-4">
         <div class="thumbnail">
+          <img src="DOKIDOKI.jpg" alt="Lights" style="width:100%">
 
+          <div class="caption">
+            <h3>Doki-doki-puddle-of-blood kocho</h3>
+            <div class="list" <ul>
+              <li> Genre: School life, Mystery </li>
+              <li> Author: yurimywaifu</li>
+              <li> Language: English</li>
+              <li> Status: Ongoing</li>
+              <li> About: </li>
+              </ul>
+            </div>
+            <a class="btn btn-primary btn-block" href="https://mega.nz/file/pJx3mKDT#coQEKYi5xW7KE1nZ9UmrkgDZragTKdpR3u2tI4C8zUI" target="_blank" role="button">Download</a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="thumbnail">
           <img src="D-providence.jpg" alt="Lights" style="width:100%">
 
           <div class="caption">
-
             <h3>D-providence</h3>
-            <div class="list"
-            <ul>
+            <div class="list" <ul>
               <li> Genre: Fantasy </li>
               <li> Author: MyNextLineIs</li>
               <li> Language: Portuguese Brazil</li>
               <li> Status: Ongoing</li>
               <li> About: </li>
-            </ul>
+              </ul>
             </div>
-            <a class="btn btn-primary" href="https://drive.google.com/file/d/10SuYd2ibJzJHjtRrvOpSzcv2HIpb0g4K/view?usp=drivesdk" role="button">Download</a>
+            <a class="btn btn-primary btn-block" href="https://drive.google.com/file/d/10SuYd2ibJzJHjtRrvOpSzcv2HIpb0g4K/view?usp=drivesdk" target="_blank" role="button">Download</a>
           </div>
 
         </div>
@@ -164,172 +151,144 @@
 
       <div class="col-md-4">
         <div class="thumbnail">
-
           <img src="afterrisk.jpg" alt="Lights" style="width:100%">
 
           <div class="caption">
-
             <h3> Triple Asterisk</h3>
-            <div class="list"
-            <ul>
-              <li> Genre: Comedy  </li>
+            <div class="list" <ul>
+              <li> Genre: Comedy </li>
               <li> Author: Fang</li>
               <li> Language: English</li>
               <li> Status: Demo</li>
               <li> About: </li>
-            </ul>
+              </ul>
             </div>
-            <a class="btn btn-primary" href="https://drive.google.com/file/d/16Gu3UmgE-WJYe5q7TqYqZGndYid-B4AJ/view?usp=drivesdk" role="button">Download</a>
+            <a class="btn btn-primary btn-block" href="https://drive.google.com/file/d/16Gu3UmgE-WJYe5q7TqYqZGndYid-B4AJ/view?usp=drivesdk" target="_blank" role="button">Download</a>
           </div>
         </div>
-</div>
-
-
-<div class="col-md-4">
-
-  <div class="thumbnail">
-
-
-    <img src="tolive.jpg" alt="Lights" style="width:100%">
-
-
-    <div class="caption">
-      <h3>To live. Die after Reincarnation?</h3>
-      <div class="list"
-      <ul>
-        <li> Genre: Thriller, Mystery </li>
-        <li> Author: Lala-novels</li>
-        <li> Language: English</li>
-        <li> Status: Demo </li>
-        <li> About: </li>
-      </ul>
       </div>
 
 
-      <a class="btn btn-primary" href="https://www.youtube.com/redirect?redir_token=QUFFLUhqblpwTjFuZURZWUtnVVRFaW94dE9VMi1OZlJOZ3xBQ3Jtc0ttd0VnY2xlRG92N3h4OC1oaC1ySnMyZ2NZREo0TTloOXVTRURmbHVUVDVEeXIwX180R1dBSkZ3QkZFWHQyb1IwdC16UXNxVTk4M3NhcUIybmQ3bFR5V2R2MjZEQWxpMXZTcUtwak5wY3FSdVNUck13bw%3D%3D&v=30SIcEHFx1I&q=https%3A%2F%2Fwww.mediafire.com%2Fdownload%2Fwggf01dc30p7y81&event=video_description" role="button">Download</a>
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="tolive.jpg" alt="Lights" style="width:100%">
 
-    </div>
-
-  </div>
-
-
-</div>
-
-<div class="col-md-4">
-  <div class="thumbnail">
-
-    <img src="yami.png" alt="Lights" style="width:100%">
-
-    <div class="caption">
-
-      <h3>Yami no tamashi: Aku no Chikara</h3>
-      <div class="list"
-      <ul>
-        <li> Genre: Thriller, Mystery  </li>
-        <li> Author: Lala-novels</li>
-        <li> Language: English</li>
-        <li> Status: Demo</li>
-        <li> About: </li>
-      </ul>
+          <div class="caption">
+            <h3>To live. Die after Reincarnation?</h3>
+            <div class="list" <ul>
+              <li> Genre: Thriller, Mystery </li>
+              <li> Author: Lala-novels</li>
+              <li> Language: English</li>
+              <li> Status: Demo </li>
+              <li> About: </li>
+              </ul>
+            </div>
+            <a class="btn btn-primary btn-block"
+              href="https://www.youtube.com/redirect?redir_token=QUFFLUhqblpwTjFuZURZWUtnVVRFaW94dE9VMi1OZlJOZ3xBQ3Jtc0ttd0VnY2xlRG92N3h4OC1oaC1ySnMyZ2NZREo0TTloOXVTRURmbHVUVDVEeXIwX180R1dBSkZ3QkZFWHQyb1IwdC16UXNxVTk4M3NhcUIybmQ3bFR5V2R2MjZEQWxpMXZTcUtwak5wY3FSdVNUck13bw%3D%3D&v=30SIcEHFx1I&q=https%3A%2F%2Fwww.mediafire.com%2Fdownload%2Fwggf01dc30p7y81&event=video_description"
+              target="_blank" role="button">Download</a>
+          </div>
+        </div>
       </div>
-      <a class="btn btn-primary" href="https://www.youtube.com/watch?v=cwBs6rIKL3Y&feature=youtu.be" role="button">Youtube</a>
-    </div>
-  </div>
-</div>
 
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="yami.png" alt="Lights" style="width:100%">
 
-<div class="col-md-4">
-
-<div class="thumbnail">
-
-<img src="ginger.jpg" alt="Lights" style="width:100%">
-
-<div class="caption">
-<h3>All the rules we can not break </h3>
-<div class="list"
-<ul>
-  <li> Genre: School life </li>
-  <li> Author: Ginger Cat</li>
-  <li> Language: English</li>
-  <li> Status: Demo </li>
-  <li> About: </li>
-</ul>
-</div>
-
-
-<a class="btn btn-primary" href="https://www.dropbox.com/s/zhdsek56io74ei6/all-the-rules-that-we-cannot-break%20%281%29.kocho?dl=0" role="button">Download</a>
-
-</div>
-
-</div>
-
-
-</div>
-
-<div class="col-md-4">
-  <div class="thumbnail">
-
-    <img src="crushlife.jpg" alt="Lights" style="width:100%">
-
-    <div class="caption">
-
-      <h3>Crush Life</h3>
-      <div class="list"
-      <ul>
-        <li> Genre: School life  </li>
-        <li> Author: hana-honestea</li>
-        <li> Language: English</li>
-        <li> Status: Demo</li>
-        <li> About: </li>
-      </ul>
+          <div class="caption">
+            <h3>Yami no tamashi: Aku no Chikara</h3>
+            <div class="list" <ul>
+              <li> Genre: Thriller, Mystery </li>
+              <li> Author: Lala-novels</li>
+              <li> Language: English</li>
+              <li> Status: Demo</li>
+              <li> About: </li>
+              </ul>
+            </div>
+            <a class="btn btn-primary btn-block" href="https://www.youtube.com/watch?v=cwBs6rIKL3Y&feature=youtu.be" target="_blank" role="button">Youtube</a>
+          </div>
+        </div>
       </div>
-      <a class="btn btn-primary" href="https://www.dropbox.com/s/92prjbajr6lnyv3/crush-life.kocho?dl=0" role="button">Download</a>
-    </div>
-  </div>
+
+
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="ginger.jpg" alt="Lights" style="width:100%">
+
+          <div class="caption">
+            <h3>All the rules we can not break </h3>
+            <div class="list" <ul>
+              <li> Genre: School life </li>
+              <li> Author: Ginger Cat</li>
+              <li> Language: English</li>
+              <li> Status: Demo </li>
+              <li> About: </li>
+              </ul>
+            </div>
+            <a class="btn btn-primary btn-block" href="https://www.dropbox.com/s/zhdsek56io74ei6/all-the-rules-that-we-cannot-break%20%281%29.kocho?dl=0" target="_blank" role="button">Download</a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="crushlife.jpg" alt="Lights" style="width:100%">
+
+          <div class="caption">
+            <h3>Crush Life</h3>
+            <div class="list" <ul>
+              <li> Genre: School life </li>
+              <li> Author: hana-honestea</li>
+              <li> Language: English</li>
+              <li> Status: Demo</li>
+              <li> About: </li>
+              </ul>
+            </div>
+            <a class="btn btn-primary btn-block" href="https://www.dropbox.com/s/92prjbajr6lnyv3/crush-life.kocho?dl=0" target="_blank" role="button">Download</a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-4">
+        <div class="thumbnail">
+          <img src="5am.jpg" alt="Lights" style="width:100%">
+
+          <div class="caption">
+            <h3> 5AM </h3>
+            <div class="list" <ul>
+              <li> Genre: Life </li>
+              <li> Author: Aron-Fourtheen14 </li>
+              <li> Language: English</li>
+              <li> Status: Demo </li>
+              <li> About: </li>
+              </ul>
+            </div>
+            <a class="btn btn-primary btn-block" href="https://www.dropbox.com/s/zhdsek56io74ei6/all-the-rules-that-we-cannot-break%20%281%29.kocho?dl=0" target="_blank" role="button">Download</a>
+          </div>
+        </div>
+      </div>
 </div>
+</section>
 
-
-<div class="col-md-4">
-
-<div class="thumbnail">
-
-<img src="5am.jpg" alt="Lights" style="width:100%">
-
-<div class="caption">
-<h3> 5AM </h3>
-<div class="list"
-<ul>
-  <li> Genre: Life </li>
-  <li> Author: Aron-Fourtheen14 </li>
-  <li> Language: English</li>
-  <li> Status: Demo </li>
-  <li> About: </li>
-</ul>
+<!--Footer of the page-->
+<section id="footer">
+<div class="container">
+        <div class="ending">
+          <p> Didn't see you Visual Novels? Send me a message and I will upload it on as soon as possible 😃.</h6>
+          <p> Remember to include: the VN title, name of author, genre, language, status, and file link. Have a nice day! 🌸<h6>
+          <a class="btn btn-danger" href="https://www.youtube.com/channel/UCqpk8grOo45oBchWZD73SFg" target="_blank" role="button"><i class="fab fa-youtube"></i> Youtube</a>
+          <a class="btn btn-warning" href="https://www.reddit.com/user/gingercat009" target="_blank" role="button"><i class="fab fa-reddit"></i> Reddits</a>
+          <a class="btn btn-primary" href="https://github.com/gingercat98" target="_blank" role="button"><i class="fab fa-github"></i></i> Github</a>
+        </div>
 </div>
+</section>
 
 
-<a class="btn btn-primary" href="https://www.dropbox.com/s/zhdsek56io74ei6/all-the-rules-that-we-cannot-break%20%281%29.kocho?dl=0" role="button">Download</a>
-
-</div>
-
-</div>
-
-
-</div>
-
-
-
-
-<footer id="footer">
-
-</footer>
-
-
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!--Bootstrap code download-->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 
 </html>
