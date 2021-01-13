@@ -1,6 +1,9 @@
 
 body { background: light !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
-
+#navigation {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(128,45,179,1) 39%, rgba(0,212,255,1) 100%);
+}
 #about {
   margin-top: 3rem;
 }
@@ -39,5 +42,9 @@ body { background: light !important; } /* Adding !important forces the browser t
 .ending{
   background-color: #252a34;
   color: white;
+}
 
+#kocho-tutorials {
+  background-color: pink;
+  padding: 30px;
 }
