@@ -15,7 +15,9 @@ body { background: light !important; } /* Adding !important forces the browser t
 }
 #projects {
   padding-top: 30px;
+
 }
+
 .title {
   padding-left:30px;
   padding-right: 30px;
